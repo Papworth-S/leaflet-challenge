@@ -8,3 +8,27 @@ body,
 html {
   height: 100%;
 }
+
+.legend {
+  background-color: #fff;
+  padding: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.legend-label {
+  vertical-align: middle;
+}
